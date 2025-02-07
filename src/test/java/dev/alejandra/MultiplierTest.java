@@ -2,11 +2,8 @@ package dev.alejandra;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
-import static org.hamcrest.Matchers.hasItems;
-
 import java.util.List;
 
-import static org.hamcrest.MatcherAssert.assertThat;
 
 public class MultiplierTest {
     @Test

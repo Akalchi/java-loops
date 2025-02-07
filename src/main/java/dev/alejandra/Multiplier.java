@@ -1,16 +1,20 @@
 package dev.alejandra;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Multiplier {
-      public List<Integer> numbers= new ArrayList<>();
-      
-        public List<Integer> multiply(int n) {
-            for (int i = 1; i <= 10; i++) {
-                numbers.add(i*n);
-            }
-            return numbers;
-        }
+
+    public Multiplier() {
     }
+
+    public List<String> getMultiplier(int n) {
+        List<String> result = new ArrayList<>();
+        for (int i = 1; i <= 10; i++) {
+            result.add(n + " x " + i + " = " + (n * i));
+        }
+        return result;
+    }
+}
+
 
